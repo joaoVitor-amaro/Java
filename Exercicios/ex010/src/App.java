@@ -14,7 +14,6 @@ public class App {
              numbersOrdenado[i] = Integer.parseInt(numbers[i]);
         }
         //Ordena o vetor int
-        
         Arrays.sort(numbersOrdenado);
         for(int number : numbersOrdenado) {
             System.out.print(number + " ");
