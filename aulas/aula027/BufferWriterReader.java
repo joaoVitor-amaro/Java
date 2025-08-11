@@ -19,7 +19,7 @@ public class BufferWriterReader {
         try(BufferedReader br = new BufferedReader(new FileReader(caminho))) {
             //Ler dados do arquivo
             String linha;
-            //readLine serve para ler as linhas do arquivo
+            //readLine serve para ler
             while((linha = br.readLine()) != null) {
                 System.out.println(linha);
             }
